@@ -1,0 +1,43 @@
+//1ststep
+let myvar="mayiladuthurai";
+const v="mayilai";
+console.log("my string is "+myvar)
+console.log("my string lenght is"+myvar.length)
+console.log(myvar[0])
+console.log(myvar.charAt(4))
+console.log(myvar.indexOf("m"))
+console.log(myvar.lastIndexOf("a"))
+console.log(myvar.slice(5,8))
+console.log(myvar.toLowerCase())
+console.log(myvar.toUpperCase())
+console.log(myvar.includes("i"))//check it is there
+ console.log(myvar.split("d"))
+console.log(myvar.split(''))  
+
+//2NDSTEP
+let variable="25.055847";
+console.log(typeof(variable))
+const mynum=89;
+const myfloat=49.2;
+console.log(typeof(mynum))
+console.log(typeof(myfloat))
+console.log(typeof(Number(variable)))
+console.log(Number.isInteger(myfloat)) // number is default 
+console.log(Number.isInteger(mynum))
+console.log(Number.parseFloat(variable))
+console.log(Number.parseFloat(variable).toFixed(2))
+console.log(myfloat.toString())
+
+
+//3rdstep
+console.log(Math.PI)
+console.log(Math.trunc(Math.PI))
+console.log(Math.round(5.658))
+console.log(Math.ceil(5.458))
+console.log(Math.floor(5.658))
+console.log(Math.pow(2,4))
+console.log(Math.min(5,8,27,63,97))
+console.log(Math.max(5.8,27,63,97))
+console.log(Math.random())
+console.log(Number.parseInt(2.5)) 
+
