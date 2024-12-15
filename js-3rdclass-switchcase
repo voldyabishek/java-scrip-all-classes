@@ -14,3 +14,22 @@ switch(a){
     default:
         console.log("none")
     } 
+
+
+//exercise
+let player="rock";
+let computer="scissors";
+
+ switch(player){
+   case "computer":
+      console.log("tie");
+      break;
+   case "rock":
+      if(computer=="scissors")
+      console.log("player wins");
+      else
+      console.log("computer wins");
+      break;
+   default:
+      console.log("no tie!")    
+ }
