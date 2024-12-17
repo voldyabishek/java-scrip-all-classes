@@ -1,0 +1,87 @@
+//5thclass
+// function la nama kudukrathu tha name ex(add,sub,mult,div)
+
+// function next(a,b)
+// {
+//     console.log(a+b)
+// }
+// next(45,12)
+// next(89,23)
+
+//try
+//  function next(c,d)
+//    {
+//     console.log(c+d)
+
+//    }
+//    next(5,2)
+//    next(10,10)
+
+// fuction exercise
+// function la nama kudukrathu tha name ex(add,sub,mult,div)
+
+// function name1(a, b) {
+//   console.log(a + b);
+// }
+
+// function name2(a, b) {
+//   console.log(a - b);
+// }
+
+// function name3(a, b) {
+//   console.log(a * b);
+// }
+
+// function name4(a, b) {
+//   console.log(a / b);
+// }
+
+   //maforook bro example//
+
+//   num1=10
+//   num2=20
+//   num3=30
+//   button=1
+//   if(button===1)
+//     {
+//   add(num1,num2)
+//   }
+//   else if(button===1)
+//     {
+//     sub(num2,num3)
+//   }
+
+   //excercise//
+
+   function name1(a, b) {
+    console.log(a + b);
+  }
+  
+  function name2(a, b) {
+    console.log(a - b);
+  }
+  
+  function name3(a, b) {
+    console.log(a * b);
+  }
+  
+  function name4(a, b) {
+    console.log(a / b);
+  }
+  
+
+       person1=2
+       person2=4
+       person3=6
+       person4=8
+       button=1
+
+       if(button==1)
+         { 
+            name1(person1,person2)
+
+         }
+        else(button==1)
+           {
+            name2(person3,person4)
+           }
