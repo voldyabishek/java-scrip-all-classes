@@ -1,0 +1,30 @@
+ //while loop reverse formula prese5t//
+
+function reverse(a)
+{
+  c=0
+  while(a>0)
+  {
+    r=a%10
+    c=(c*10)+r
+      a=Number.parseInt(a/10)
+  }
+  console.log(c)
+}
+------------------------
+<-- example-->
+function reverse(a)
+{
+  c=0
+  while(a>0)
+  {
+    r=a%10
+    c=(c*10)+r
+      a=Number.parseInt(a/10)
+  }
+  console.log(c)
+
+}
+
+reverse(4560)
+reverse(7897)
