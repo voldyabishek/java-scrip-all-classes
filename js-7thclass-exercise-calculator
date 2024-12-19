@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+         <title>calculator</title>
+    </head>
+    <body>
+        <div id="names">
+        <input type="text" name="" id="num1" placeholder="give some values">
+        <input type="text" name="" id="num2" placeholder="give some values">
+    </div><br><br>
+        <button onclick="button1()">+</button>
+        <button onclick="button2()">-</button>
+        <button onclick="button3()">*</button>
+        <button onclick="button4()">/</button><br><br>
+        
+        <div id="total">
+            <input type="text" name="result" id="result" placeholder="total">
+        </div>
+          
+         <script>
+           function button1()
+           {
+            let a=document.querySelector("#num1").value
+            let b=document.querySelector("#num2").value
+            document.querySelector("#result").value=Number.parseInt(a)+Number.parseInt(b)
+           }
+
+           function button2()
+             {
+               let a=document.querySelector("#num1").value
+               let b=document.querySelector("#num2").value
+               document.querySelector("#result").value=Number.parseInt(a)-Number.parseInt(b)
+             }
+
+             function button3()
+               {
+                let a=document.querySelector("#num1").value
+                let b=document.querySelector("#num2").value
+                document.querySelector("#result").value=Number.parseInt(a)*Number.parseInt(b)
+
+               } 
+
+
+               function button4()
+                 {
+                    let a=document.querySelector("#num1").value
+                    let b=document.querySelector("#num2").value
+                    document.querySelector("#result").value=Number.parseInt(a)/Number.parseInt(b)
+                 }
+         </script>
+        
+    </body>
+</html>
+
