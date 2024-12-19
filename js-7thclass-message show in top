@@ -1,0 +1,39 @@
+
+<--<head>
+    <title>messageshow</title>
+</head>
+
+<body>
+    <input type="text" name="abi" id="name"></input>
+    <button onclick="msg()">submit</button>
+    <button onclick="show()">show</button>
+    <button onclick="display()">display</button>
+    <button onclick="showanother()">show another</button>
+    <div id="disname">
+    </div>
+    <input type="text" name="" id="name1">
+
+    <script>
+        function msg() {
+            alert("new msg")
+        }
+        function show() {
+            let name = document.querySelector("#name").value
+            alert(name)
+
+        }
+
+        function display() {
+            let name = document.querySelector("#name").value
+            let dis = document.queryselector("#disname")
+            dis.textcontent = name
+        }
+
+        function showanother() {
+            document.querySelector("#name1").value = document.queryselector("#name").value
+        }
+    </script>
+</body>
+
+</html> -->
+
