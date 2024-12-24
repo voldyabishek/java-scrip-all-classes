@@ -29,7 +29,7 @@
     margin:10px; 
 
 }*/
-
+/* 
 section {
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ section {
     background-color: #000;
     color: #fff;
     margin: 10px;
-}
+} */
 
 
 
@@ -68,9 +68,42 @@ section {
 
 
 
+js try1-exercise
 
 
+section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:100vw;
+    align-items: center;
+    height: 130vh;
+    z-index:1;
+    padding-top: 50px;
 
+   
+     
+ }
+
+ .box{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    color:red;
+ }
+
+
+ .box>div{
+     display:flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+     width:100px;
+     height: 100px;
+     background-color: #000;
+     margin:10px;
+ }
 
 
 
