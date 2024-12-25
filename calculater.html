@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <form>
+        <div>
+            <label>welcome to calculator</label>
+        </div>
+        <br>
+        <div id="container">
+            <input type="text" id="value"></div>
+        <div id="row1">
+            <button>AC</button>
+            <button>&#8678;</button>
+            <button type="button" onclick="button1('%')">%</button>
+            <button type="button" onclick="button1('&#247;')">&#247;</button>
+        </div>
+        <div id="row1">
+            <button type="button" onclick="button1(7)"><b>7</b></button>
+            <button type="button" onclick="button1(8)">8</button>
+            <button type="button" onclick="button1(9)">9</button>
+            <button type="button" onclick="button1('*')" >*</button>
+
+
+        </div>
+        <div id="row2">
+            <button type="button" onclick="button1(4)">4</button>
+            <button type="button" onclick="button1(5)">5</button>
+            <button type="button" onclick="button1(6)">6</button>
+            <button type="button" onclick="button1('-')">-</button>
+        </div>
+        <div id="row3">
+            <button type="button" onclick="button1(1)">1</button>
+            <button type="button" onclick="button1(2)">2</button>
+            <button type="button" onclick="button1(3)">3</button>
+            <button type="button" onclick="button1('+')">+</button>
+        </div>
+        <div id="row4">
+            <button type="button" onclick="button1(0)">0</button>
+            <button type="button" onclick="button1('00')">00</button>
+            <button type="button" onclick="button1('.')">.</button>
+            <button type="button" onclick="button1('=')">=</button>
+        </div>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
