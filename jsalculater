@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" name="" id="">
+        <button onclick="button1('1')">1</button>
+        <button onclick="button1('2')">2</button>
+        <button onclick="button1('+')">+</button>
+        <button onclick="submit()">=</button>
+    </div>
+
+    <script>
+        function button1(op)
+        {
+            let input = document.querySelector("input")
+            let a;
+            switch(op)
+            {
+                case '1':
+                    a= '1'
+                    break;
+                case '2':
+                    a= '2'
+                    break
+                case '+':
+                    a = '+'
+                    break
+               
+            }
+            input.value=input.value+a
+
+        }
+        function submit()
+        {
+            let input = document.querySelector("input")
+            input.value= eval(input.value)
+        }
+    </script>
+</body>
+</html>
