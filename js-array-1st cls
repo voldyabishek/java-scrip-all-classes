@@ -1,0 +1,15 @@
+//Arrays
+
+const myArray=[];
+myArray[0]="hi";
+myArray[1]="guys";
+myArray[2]=525;
+myArray[3]=true;
+console.log(myArray)
+
+myArray.push("click");//adding element at last position
+myArray.unshift("hello");//adding element at first position
+console.log(myArray)
+console.log(myArray.length)
+console.log(myArray[0])
+console.log(myArray[myArray.length-1]) 
