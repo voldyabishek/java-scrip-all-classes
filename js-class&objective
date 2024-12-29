@@ -33,4 +33,40 @@ const realme =new mobile ("120GB","snapdrogon720","led")
     realme.featurevankku("gaming mode")
     realme.display()
 
+
+
+
+
+// i try it //
+    class students{
+    constructor(tamil,english,maths)
+        {
+            this.cutoff40=tamil;
+            this.cutoff30=english;
+            this.cutoff20=maths;
+            this.total=[];
+        }
+
+        totalsender()
+           {
+            return this.total;
+           }
+        totalincoming(ethachum_onnu)
+            {
+             this.total.push(ethachum_onnu);
+            }
+
+            display(){
+                return console.log(`tamil: ${this.cutoff40},english${this.cutoff30},maths${this.cutoff20}`);
+            }
+            }
+
+        //object
+        const student1= new students( mark10,mark20,mark30);
+
+           student1.totalsender("1")
+           student1.totalsender("2")
+           student1.display()
+
+
  
