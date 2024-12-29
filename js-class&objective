@@ -1,0 +1,36 @@
+  //ithu class
+class mobile{
+    constructor(storage,processor,display){
+        this.store=storage
+        this.performance=processor;
+        this.displaytype=display;
+        this.feature=[];
+    }
+    //ithu functions
+    featureanapu(){
+        return this.feature;
+    }
+    featurevankku(fet){
+        this.feature.push(fet);
+    }
+
+   display(){
+
+    return console.log(`storage ${this.store} ,processor ${ this.performance},display ${this.display}, feastures ${this.feature}`);
+    
+    }
+
+    }
+ const redmi = new mobile( "64GB","sanpdragon865","OLED")
+
+redmi.featurevankku("5g")
+redmi.featurevankku("fingerprint")
+redmi.display()
+
+
+const realme =new mobile ("120GB","snapdrogon720","led")
+    realme.featurevankku("4g")
+    realme.featurevankku("gaming mode")
+    realme.display()
+
+ 
