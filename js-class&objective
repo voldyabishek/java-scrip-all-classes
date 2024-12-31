@@ -69,4 +69,36 @@ const realme =new mobile ("120GB","snapdrogon720","led")
            student1.display()
 
 
+//    try2 @car
+
+
+class car {
+    constructor(engine, Gear, color) {
+        this.enginetype = engine;
+        this.geartype = Gear;
+        this.colortype = color;
+        this.feature = [];
+    }
+
+    featuresend() {
+        return this.feature;//income -> send ->featue
+    }
+    featureincome(future) {
+        this.feature.push(future)//clients
+    }
+
+    Show() {
+        return console.log(`engine:${this.enginetype},gear:${this.geartype},color:${this.colortype},feature:${this.feature}`)
+    }
+}
+// const la than product oda spec ahh mention pananum
+const porche = new car(" petrol", "automatic", "black")
+
+porche.featureincome("assure")
+porche.featureincome("car top view")
+porche.featureincome("gear quickswift")
+porche.Show()
+
+
+
  
