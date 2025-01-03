@@ -63,4 +63,71 @@ class Animal {
   Cat1.makeSound(); 
   Cat1.climb(); 
   info.makeSound();
+
+
+// inherit try//
+       class family {
+  constructor(name, member) {
+    this.familyname = name;
+    this.familymember = member;
+  }
+
+  show() {
+    console.log(`${this.familyname} is a ${this.familymember}`);
+  }
+
+  detail() {
+    console.log(`${this.familyname} show a detail.`);
+  }
+
+}
+
+// kolantha  class
+
+class Paiyan extends family {
+  constructor(familyname, brother) {
+    super(familyname, 'paiyan');
+    this.brother = brother;
+  }
+
+  //detail show method
+
+  detail() {
+    console.log(`${this.familyname}young brother.`);
+  }
+  ride() {
+    console.log(`${this.familyname}  ride a bike...`);
+  }
+
+}
+
+// another kollantha class
+class Ponnu extends family {
+  constructor(familyname, sister) {
+    super(familyname, 'ponnu')
+    this.sister = sister;
+  }
+
+  // detail show method
+  detail() {
+    console.log(`${this.familyname}young sister.`);
+  }
+
+  ride() {
+    console.log(`${this.familyname} is ride a car`);
+  }
+
+}
+
+//create instance of paiyan and ponu
+
+const paiyan = new Paiyan('abishek', '3mem');
+
+const ponnu = new ponnu('abi,2mem')
+
+//  use the detail show method
+
+paiyan.show();
+paiyan.detail();
+paiyan.ride();
   
