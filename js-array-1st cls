@@ -13,3 +13,30 @@ console.log(myArray)
 console.log(myArray.length)
 console.log(myArray[0])
 console.log(myArray[myArray.length-1]) 
+
+
+
+
+
+   // how Array work
+
+let name=["harish","ram","balaji","a","b"]
+console.log(name)
+ name.push("rajesh")//push na (extra)name ahh (last la add pantrathu) add 
+name.push("rajesh")
+
+name.unshift("bala")//unsift na (puthusa)name ahh munadi(first ahh)kondu varathu
+console.log(name)
+
+console.log(name[2])// number la call pani seprate ahh edukurathu(0la irunthu strat aagum )
+
+name.pop()// pop na last ahh irukuratha thookurathu(last la ullatha delete panatrathu)
+console.log(name)
+
+name.shift()//shift na , (first la )munnadi ullatha delete pantrathu
+console.log(name)
+
+newname=name.slice(3,4)//slice la 2,3nu kudutha(2nd la ulla name ahh eduthukum & 3,4nu kudutha->3 la ulla tha ahh eduthukum)
+console.log(newname)
+
+console.log(name)
