@@ -138,74 +138,74 @@
           // 2nd workout for inherit
 
 //  parent class for management
-class Management {
-    constructor(fees, studentID) {
-        this.fee = fees;
-        this.rollno = studentID;
-    }
+// class Management {
+//     constructor(fees, studentID) {
+//         this.fee = fees;
+//         this.rollno = studentID;
+//     }
 
-    show() {
-        console.log(`${this.fee}is a ${this.rollno}`);
-    }
+//     show() {
+//         console.log(`${this.fee}is a ${this.rollno}`);
+//     }
 
-    detail() {
-        console.log(`${this.fee} show a detail`)
-    }
-}
+//     detail() {
+//         console.log(`${this.fee} show a detail`)
+//     }
+// }
 
-// child class for HOD 
-class Student1 extends Management {
-    constructor(fee, rupees) {
-        super(fee, '10rupees');
-        this.rupees= rupees;
-    }
-    // detail show method
-    detail() {
-        console.log(`${this.rupees}2rs paid,`)
+// // child class for HOD 
+// class Student1 extends Management {
+//     constructor(fee, rupees) {
+//         super(fee, '10rupees');
+//         this.rupees= rupees;
+//     }
+//     // detail show method
+//     detail() {
+//         console.log(`${this.rupees}2rs paid,`)
 
-    }
-    balance() {
-        console.log(`${this.rupees} balance fees 8 rupees only...`);
+//     }
+//     balance() {
+//         console.log(`${this.rupees} balance fees 8 rupees only...`);
 
-    }
-}
+//     }
+// }
 
-// another child class for student2
-class Student2 extends Management {
-    constructor(fee, scholorship) {
-        super(fee, 'nofees')
-        this.scholorship = scholorship;
+// // another child class for student2
+// class Student2 extends Management {
+//     constructor(fee, scholorship) {
+//         super(fee, 'nofees')
+//         this.scholorship = scholorship;
 
-    }
+//     }
 
-    // detail show method
+//     // detail show method
 
-    detail() {
-        console.log(`${this.fee} fully paid`);
-    }
+//     detail() {
+//         console.log(`${this.fee} fully paid`);
+//     }
 
-    bus_fees() {
+//     bus_fees() {
 
-        console.log(`${this.feepay} bus fees  balance 5 rupees`);
-    }
-}
+//         console.log(`${this.feepay} bus fees  balance 5 rupees`);
+//     }
+// }
 
-//  create instance of HOD and Incharge
-const Student1= new Student1 ('goodstud','rollno.21');
-const Student2 = new Student2('fees paided','rollno.20');
+// //  create instance of HOD and Incharge
+// const Student1= new Student1 ('goodstud','rollno.21');
+// const Student2 = new Student2('fees paided','rollno.20');
 
-//   use  the detail show method
-Student1.show();
-Student1.detail();
-Student1.balance();
-
-
-Student2.detail();
-Student2.bus_fees();
+// //   use  the detail show method
+// Student1.show();
+// Student1.detail();
+// Student1.balance();
 
 
+// Student2.detail();
+// Student2.bus_fees();
 
-/  parent class for management
+       
+      //2nd work out oda preset pani(edit pani pananthu)   
+//  parent class for management
 class Management {
     constructor(StudentID,Fees) {
         this.rollno = StudentID;
