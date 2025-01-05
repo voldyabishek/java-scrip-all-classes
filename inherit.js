@@ -202,3 +202,73 @@ Student1.balance();
 
 Student2.detail();
 Student2.bus_fees();
+
+
+
+/  parent class for management
+class Management {
+    constructor(StudentID,Fees) {
+        this.rollno = StudentID;
+        this.fee = Fees;
+    }
+
+    show() {
+        console.log(`${this.rollno}is a ${this.fee}`);
+    }
+
+    tutionfees() {
+        console.log(`${this.rollno} show a balance `)
+    }
+}
+
+// child class for bAstudent
+class BAstudent extends Management {
+    constructor(StudentID,arts) {
+        super(StudendtID, 'rollno21');
+        this.arts= arts;
+    }
+    // detail show method
+    tutionfees() {
+        console.log(`${this.rollno}balance fees 10rupai,`)
+
+    }
+    bus_fees() {
+        console.log(`${this.rollno} bus fess fully paid...`);
+
+    }
+}
+
+// another child class for student2
+class BSCstudent extends Management {
+    constructor(attenance, result) {
+        super(StudentID, 'rollno1')
+        this.result = result;
+
+    }
+
+    // detail show method
+
+    bus_fees() {
+        console.log(`${this.rollno} paid50%`);
+    }
+
+     internalmark() {
+
+        console.log(`${this.rollno} internal pass`);
+    }
+}
+
+//  create instance of BAstudent and BSCstudent
+const BAstudent1= new BAstudent ('abishek','defence std');
+const BSCstudent1 = new BSCstudent('75%','pass');
+
+//   use  the detail show method
+BAstudent1.show();
+BAstudent1.tutionfees();
+BAstudent1.bus_fees();
+
+
+BSCstudent1.detail();
+BSCstudent1.bus_fees();
+BSCstudent1.internalmark();
+
