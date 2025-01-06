@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>array</title>
+</head>
+
+<body>
+  <input type="text" name="btn1" id="id1" placeholder=" enter name"><br><br>
+
+  <input type="text" name="btn2" id="id2" placeholder=" enter mopile no"><br><br>
+
+  <input type="text" name="btn3" id="id3" placeholder=" enter email"><br><br>
+
+  <input type="text" name="btn3" id="id4" placeholder="otp"><br><br>
+
+  <button onclick="add()">add</button>
+  <button onclick="delet()">delete</button>
+
+</body>
+<script>
+  let data = []
+  function add() {
+    let btn1 = document.querySelector("#id1");
+    let btn2 = document.querySelector("#id2");
+    let btn3 = document.querySelector("#id3");
+    let btn4 =document.querySelector("#id4")
+    a=confirm("submit or not")
+    if(a)
+  {
+    data.push(btn1.value);
+    data.push(btn2.value);
+    data.push(btn3.value);
+    
+    alert(data)
+   console.log(data)}
+  }
+ 
+
+
+
+  function delet() {
+    data.pop();
+    console.log(data);
+  }
+
+</script>
+
+</html>
