@@ -1,0 +1,12 @@
+//event listner
+const btn=document.querySelector("#jsbtn")
+
+
+
+  //click rename
+         btn.addEventListener("click",(event)=>
+              {
+                const par=event.target.parentNode;
+                par.lastElementChild.remove();
+                par.innerHTML=' <img src="image/download1.gif" alt="" >'
+              })
